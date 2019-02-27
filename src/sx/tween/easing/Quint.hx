@@ -11,9 +11,9 @@ package sx.tween.easing;
 class Quint {
 
 
-	static public var easeIn (get_easeIn, never):EasingFunction;
-	static public var easeInOut (get_easeInOut, never):EasingFunction;
-	static public var easeOut (get_easeOut, never):EasingFunction;
+	static public var easeIn (get, never):EasingFunction;
+	static public var easeInOut (get, never):EasingFunction;
+	static public var easeOut (get, never):EasingFunction;
 
 
 	private static function get_easeIn ():EasingFunction {

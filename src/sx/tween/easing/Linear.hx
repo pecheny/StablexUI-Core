@@ -11,7 +11,7 @@ package sx.tween.easing;
 class Linear {
 
 
-	static public var easeNone (get_easeNone, never):EasingFunction;
+	static public var easeNone (get, never):EasingFunction;
 
 
 	private static function get_easeNone ():EasingFunction {
