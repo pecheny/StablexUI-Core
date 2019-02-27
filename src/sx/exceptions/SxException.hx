@@ -1,5 +1,6 @@
 package sx.exceptions;
 
+import haxe.Exception;
 import haxe.PosInfos;
 
 
@@ -16,8 +17,8 @@ class SxException extends Exception
      */
     public function new (msg:String = '', pos:PosInfos = null) : Void
     {
-        super(msg, pos);
-        truncateStack(1);
+        super(msg);
+//        truncateStack(1);
     }
 
 }//class SxException

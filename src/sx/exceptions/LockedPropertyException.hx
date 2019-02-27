@@ -1,5 +1,6 @@
 package sx.exceptions;
 
+import haxe.Exception;
 import haxe.PosInfos;
 
 
@@ -16,7 +17,7 @@ class LockedPropertyException extends Exception
      */
     public function new (msg:String = 'Property cannot be changed.', pos:PosInfos = null) : Void
     {
-        super(msg, pos);
+        super(msg);
     }
 
 }//class LockedPropertyException
